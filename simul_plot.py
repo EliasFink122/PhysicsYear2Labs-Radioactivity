@@ -13,7 +13,7 @@ def main():
     plt.hist(data, int(sys.argv[2])) # create histogram
     plt.xlabel("Energy deposited")
     plt.ylabel("Number of particles")
-    plt.title("Histogram of simulation")
+    plt.title("Histogram of " + str(sys.argv[1]))
     plt.show()
 
 

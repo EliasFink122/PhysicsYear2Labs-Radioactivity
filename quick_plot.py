@@ -13,7 +13,7 @@ def main():
     plt.hist(data, int(sys.argv[2])) # create histogram
     plt.xlabel("Counts per cycle")
     plt.ylabel("Number of cycles")
-    plt.title("Histogram of output from DAQ")
+    plt.title("Histogram of " + str(sys.argv[1]))
     plt.show()
 
 
